@@ -83,6 +83,10 @@ config NICE_OLED_WIDGET_DONGLE_TEST
     bool "Enable test widget on dongle"
     default n
 
+config _NICE_OLED_CENTRAL
+    bool "Force enable main screen"
+    default n
+
 config NICE_VIEW_WIDGET_STATUS
     select LV_USE_LABEL
     select LV_USE_IMG
